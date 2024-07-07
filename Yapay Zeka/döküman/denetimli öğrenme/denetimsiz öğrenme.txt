@@ -1,0 +1,99 @@
+K-Means Kümeleme: Veri noktalarını belirli sayıda küme (centroid) halinde gruplandıran bir kümeleme algoritmasıdır. Her küme, merkeziyle ilişkilendirilir ve her veri noktası en yakın merkeze atanır.
+
+Hierarchical (Hiyerarşik) Kümeleme: Kümeleme algoritması, hiyerarşik bir ağaç yapısı oluşturarak kümeleme işlemini gerçekleştirir. Küme sayısı belirtilmez, veri seti yapısına göre belirlenir.
+
+Gaussian Karışım Modelleri (GMM): Veri noktalarının bir veya daha fazla Gauss dağılımıyla modellediği bir olasılık tabanlı modeldir. Her Gauss dağılımı bir küme olarak kabul edilir.
+
+Principal Component Analysis (PCA): Veri setindeki değişkenliği azaltarak veri setini yeni bir özellik uzayına dönüştüren bir boyut azaltma tekniğidir. Veri setindeki varyansın büyük olan bileşenlerini bulur.
+
+Independent Component Analysis (ICA): Veri setindeki bileşenlerin olası bağımsız kaynaklardan geldiğini varsayarak veriyi dönüştüren bir boyut azaltma ve ayrıştırma tekniğidir.
+
+Self-Organizing Maps (SOM): Veri setindeki yapıları koruyarak veri noktalarını iki veya üç boyutlu bir haritaya yansıtan bir tür yapay sinir ağıdır.
+
+Autoencoders: Veri setini sıkıştırıp (encoding) daha sonra orijinal forma (decoding) geri dönüştüren yapay sinir ağlarıdır. Bu şekilde veri setindeki önemli yapılar ve desenler öğrenilebilir.
+
+Density-Based Spatial Clustering of Applications with Noise (DBSCAN): Veri setinde yoğunluk tabanlı bir şekilde kümeleme yapar. Belirli bir yoğunluk eşiği ve minimum nokta sayısı kullanarak kümeleme yapar.
+
+t-Distributed Stochastic Neighbor Embedding (t-SNE): Yüksek boyutlu veri setlerini görselleştirmek için kullanılan bir boyut azaltma tekniğidir. Veri setindeki benzer veri noktalarını yakın bir alana yerleştirir.
+
+Apriori Algoritması: Pazar sepeti analizi için kullanılan bir kural tabanlı madencilik tekniğidir. Bu algoritma, veri setindeki sık kullanılan öğe kümelerini bulmak için kullanılır.
+
+Frequent Pattern Mining: Veri setinde sık görülen desenleri (pattern) bulmayı amaçlayan bir madencilik tekniğidir. Örneğin, web kullanımı, tıbbi veriler gibi alanlarda sık kullanılır.
+
+Singular Value Decomposition (SVD): Matrisler üzerinde bir boyut azaltma tekniği olarak kullanılır. Özellikle öneri sistemleri ve metin madenciliği gibi alanlarda kullanılır.
+
+Non-negative Matrix Factorization (NMF): Veri setini iki veya daha fazla düşük boyutlu pozitif bileşenlere ayırarak kullanışlı özellikleri öğrenmeye çalışır.
+
+Latent Dirichlet Allocation (LDA): Metin belgelerindeki gizli temaları keşfetmek için kullanılan bir olasılık modelleme ve boyut azaltma tekniğidir.
+
+Kohonen Self-Organizing Maps: SOM (Self-Organizing Maps) olarak da bilinen bu yöntem, veri setindeki benzer özelliklere sahip veri noktalarını bir harita üzerinde gruplandırmak için kullanılır.
+
+Generative Adversarial Networks (GANs): GAN'lar, iki yapay sinir ağı arasındaki rekabet üzerine kuruludur; birisi veri üretirken diğeri üretilen verinin gerçek veya sahte olduğunu belirlemeye çalışır.
+
+K-medoids: K-means benzeri bir kümeleme yöntemidir ancak merkezler yerine k-medoid (veri noktaları arasındaki minimum uzaklık ölçüsü olan noktalar) kullanılır.
+
+Expectation-Maximization (EM) Algorithm: Gauss karışım modelleri gibi olasılık modelleri üzerinde parametre tahmin etmek için kullanılan bir optimizasyon algoritmasıdır.
+
+Isomap: Veri setini düşük boyutlu bir manifold'a (yüzey) dönüştüren bir boyut azaltma tekniğidir. Veri setindeki yapışık bölgeleri ayırmak için kullanışlıdır.
+
+Locally Linear Embedding (LLE): Veri setindeki her veri noktasını, komşu veri noktalarının lineer bir kombinasyonu olarak temsil etmeye çalışan bir boyut azaltma tekniğidir.
+
+Deep Belief Networks (DBN): Yapay sinir ağlarından oluşan bir tür olasılıksal modeldir. Genellikle sınıflandırma ve özellik öğrenme için kullanılır.
+
+Variational Autoencoders (VAE): Otomatik kodlayıcıların bir türüdür ve öğrenilmiş dağılımları kullanarak veri setinden yeni örnekler üretmek için kullanılabilir.
+
+Hierarchical Clustering: Hiyerarşik kümeleme yöntemidir, veri noktalarını bir ağaç yapısında kümelemek için kullanılır.
+
+Radial Basis Function Networks (RBFN): Radyal taban fonksiyonları kullanarak bir veri setini sınıflandırmak veya regresyon yapmak için kullanılan bir tür yapay sinir ağıdır.
+
+Birch (Balanced Iterative Reducing and Clustering using Hierarchies): Büyük veri setlerinde hızlı ve etkili kümeleme yapmak için kullanılan bir yöntemdir.
+
+Affinity Propagation: Veri noktaları arasındaki benzerlikleri kullanarak kümeleme yapmayı amaçlayan bir kümeleme algoritmasıdır.
+
+Spectral Clustering: Veri setini bir graf şeklinde temsil edip graf üzerindeki bağlantıları kullanarak kümeleme yapmaya dayanan bir yöntemdir.
+
+Word Embeddings (Word2Vec, GloVe): Metin verilerindeki kelimeleri düşük boyutlu vektörlerle temsil etmek için kullanılan tekniklerdir. Bu yöntemler genellikle kelime benzerliği ve anlamsal ilişkileri öğrenmek için kullanılır.
+
+Curse of Dimensionality: Boyutlanma küçültme algoritmalarının amacı, veri setinin boyutunu azaltarak daha basit ve anlamlı bir yapıya sahip olmasını sağlamaktır.
+
+Latent Semantic Analysis (LSA): Metin belgelerinde gizli anlamı keşfetmek için kullanılan bir boyut azaltma ve konsept modelleme tekniğidir.
+
+Non-negative Matrix Factorization (NMF): Veri setini pozitif bileşenlerine ayırmak için kullanılan bir yöntemdir. Özellikle metin ve görüntü verilerinde kullanışlıdır.
+
+Gaussian Processes: Regresyon ve sınıflandırma problemlerini çözmek için kullanılan bir olasılık temelli modelleme yaklaşımıdır.
+
+Generative Models: Veri setindeki örnekleri modelleyen ve yeni veri örnekleri üreten modellerdir. Örnek olarak Variational Autoencoders (VAE) ve Generative Adversarial Networks (GANs) verilebilir.
+
+Biclustering: Hem veri noktalarını hem de özellikleri aynı anda kümelemek için kullanılan bir tekniktir. Veri setinde hem satırları hem de sütunları kümeleyebilir.
+
+Manifold Learning: Veri setindeki yapının altında yatan düşük boyutlu manifold'u keşfetmek için kullanılan bir grup yöntemdir. Örneğin, Isomap ve Locally Linear Embedding (LLE) bunlara örnektir.
+
+Markov Models: Zaman serisi verileri analiz etmek ve geleceği tahmin etmek için kullanılan istatistiksel modellerdir.
+
+Independent Component Analysis (ICA): Veri setindeki bileşenleri (örneğin, ses kayıtlarındaki farklı konuşmacıları) birbirinden bağımsız olarak ayırmak için kullanılır.
+
+Mixture Discriminant Analysis (MDA): Sınıflar arasındaki farkları koruyarak veri setini boyutlandıran bir tür diskriminant analiz tekniğidir.
+
+Local Outlier Factor (LOF): Veri setindeki anormal (outlier) noktaları tespit etmek için kullanılan bir yoğunluk temelli outlier tespit yöntemidir.
+
+Isolation Forest: Anormal veri noktalarını hızlı bir şekilde tespit etmek için kullanılan bir outlier tespit algoritmasıdır.
+
+Ant Colony Optimization (ACO): Doğal karınca kolonilerinin yem arama davranışından esinlenen bir optimizasyon algoritmasıdır. Özellikle kombinatoryal optimizasyon problemlerinde kullanılır.
+
+Decision Trees for Clustering: Karar ağaçları, kümeleme problemlerini çözmek için kullanılan, hiyerarşik ve böl ve yönet stratejisine dayalı bir yöntemdir.
+
+Optical Character Recognition (OCR): Optik karakter tanıma, metin belgelerinden harf ve sayıları tanımak için kullanılan bir tekniktir. Özellikle belge analizi ve dijital arşivleme alanlarında kullanılır.
+
+Ensemble Learning Methods: Birden fazla denetimsiz öğrenme modelinin birleştirilerek daha güçlü ve genelleştirilmiş sonuçlar elde edilmesini sağlayan yöntemlerdir. Örneğin, Ensemble Clustering gibi.
+
+Sequence Mining: Zaman serisi veya sıralı verilerde desenleri veya kuralları çıkarmak için kullanılan tekniklerdir. Örneğin, Frequent Sequence Mining (FSM) ve Sequential Pattern Mining gibi.
+
+Anomaly Detection: Veri setindeki anormallikleri veya beklenmeyen desenleri tespit etmek için kullanılan tekniklerdir. Örneğin, One-Class SVM ve Mahalanobis Distance gibi.
+
+Topic Modeling: Metin verilerinde gizli temaları keşfetmek için kullanılan bir grup tekniktir. Örneğin, Latent Dirichlet Allocation (LDA) ve Latent Semantic Analysis (LSA) gibi.
+
+Graph-based Methods: Veri setini bir graf olarak temsil ederek yapıları, kümeleme veya paternleri çıkarmak için kullanılan yöntemlerdir. Örneğin, Spectral Clustering ve Community Detection gibi.
+
+Online Learning: Veri setinin sürekli olarak akış halinde olduğu durumlarda, anlık olarak güncellenen ve yeni veriye adapte olan modeller geliştirmek için kullanılan tekniklerdir.
+
+Neighborhood Components Analysis (NCA): Sınıflandırma problemlerinde sınıflar arasındaki uzaklıkları korumak için kullanılan bir boyut azaltma tekniğidir.

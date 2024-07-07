@@ -1,0 +1,61 @@
+Denetimli öğrenme, makine öğrenimi ve yapay zeka alanlarında en yaygın kullanılan yöntemlerden biridir. Bu yöntem, modelin eğitim verilerinden öğrenmesini ve yeni verilere uygulandığında doğru tahminler yapmasını sağlar. Denetimli öğrenme çeşitli türlere ayrılabilir:
+
+1. Sınıflandırma (Classification)
+Sınıflandırma, veri noktalarını önceden tanımlanmış kategorilere ayırma işlemidir. Eğitim verisi, her veri noktasının hangi kategoriye ait olduğunu belirten etiketlerle birlikte gelir. Model, bu verilerden öğrenerek yeni veri noktalarını uygun kategorilere sınıflandırmayı öğrenir.
+
+Örnekler:
+
+E-posta spam filtreleme: E-postaların spam olup olmadığını belirlemek.
+Görüntü tanıma: Resimlerdeki nesneleri sınıflandırmak (örneğin, kedi, köpek, araba).
+Hastalık teşhisi: Tıbbi test sonuçlarına göre hastalıkların teşhisi.
+
+2. Regresyon (Regression)
+Regresyon, sürekli bir hedef değişkeni tahmin etmek için kullanılır. Eğitim verisi, her veri noktası için sürekli bir değer içerir ve model, bu değerleri tahmin etmeyi öğrenir.
+
+Örnekler:
+
+Ev fiyatları tahmini: Bir evin özelliklerine (metrekare, oda sayısı vb.) göre fiyatını tahmin etmek.
+Hisse senedi fiyat tahmini: Geçmiş verilere dayalı olarak hisse senedi fiyatlarını tahmin etmek.
+Hava durumu tahmini: Geçmiş hava durumu verilerine dayanarak gelecekteki hava durumunu tahmin etmek.
+
+3. Sıralama (Ranking)
+Sıralama, öğeleri belirli bir kritere göre sıralamak için kullanılır. Bu genellikle arama motorlarında veya öneri sistemlerinde görülür.
+
+Örnekler:
+
+Arama motorları: Arama sonuçlarını en alakalıdan en alakasız olana göre sıralamak.
+Öneri sistemleri: Kullanıcının ilgi alanlarına göre ürün veya içerik önerilerinde bulunmak (örneğin, Netflix'in film önerileri).
+
+4. Zaman Serisi Tahmini (Time Series Forecasting)
+Zaman serisi tahmini, zaman içindeki verilerin gelecekteki değerlerini tahmin etmeye odaklanır. Bu tür modelleme, belirli bir zaman dilimindeki verileri kullanarak gelecekteki olayları tahmin etmeye çalışır.
+
+Örnekler:
+
+Satış tahmini: Geçmiş satış verilerine dayalı olarak gelecekteki satışları tahmin etmek.
+Enerji tüketimi tahmini: Geçmiş enerji tüketim verilerine dayalı olarak gelecekteki enerji tüketimini tahmin etmek.
+İklim değişikliği modelleme: Geçmiş iklim verilerine dayanarak gelecekteki iklim değişikliklerini tahmin etmek.
+
+5. Çoklu Etiketli Sınıflandırma (Multi-Label Classification)
+Bu tür, her veri noktasının birden fazla sınıfa ait olabileceği durumlarda kullanılır. Geleneksel sınıflandırmadan farklı olarak, burada bir veri noktası birden fazla kategoriye aynı anda ait olabilir.
+
+Örnekler:
+
+Metin sınıflandırma: Bir belgenin birden fazla konuya ait olabilmesi (örneğin, bilim ve teknoloji).
+Görüntü etiketleme: Bir resimde birden fazla nesnenin bulunması (örneğin, bir resimde hem kedi hem de köpek olması).
+
+6. İkili Sınıflandırma (Binary Classification)
+İkili sınıflandırma, veri noktalarını iki sınıfa ayırma işlemidir. Bu, en temel sınıflandırma türlerinden biridir ve çok yaygın olarak kullanılır.
+
+Örnekler:
+
+Hastalık teşhisi: Hasta veya sağlıklı olarak sınıflandırmak.
+Kredi başvuru değerlendirme: Kredi verilebilir veya verilemez olarak sınıflandırmak.
+
+7. Çok Sınıflı Sınıflandırma (Multi-Class Classification)
+Çok sınıflı sınıflandırma, veri noktalarını birden fazla (iki veya daha fazla) sınıfa ayırma işlemidir. Bu, ikili sınıflandırmadan daha karmaşıktır çünkü her veri noktası birden fazla sınıftan birine atanır.
+
+Örnekler:
+
+El yazısı tanıma: Yazılan rakamların 0'dan 9'a kadar sınıflandırılması.
+Konu etiketleme: Makalelerin spor, siyaset, teknoloji gibi kategorilere sınıflandırılması.
+Denetimli öğrenme, makine öğrenimi ve yapay zeka projelerinde güçlü ve etkili bir yöntemdir. Farklı denetimli öğrenme türleri, farklı veri türleri ve problemler için uygundur ve her biri farklı uygulama alanlarında kullanılabilir.
