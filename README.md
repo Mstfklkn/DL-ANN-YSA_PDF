@@ -18,7 +18,7 @@ To clone the project to your local machine, follow these steps:
 ```bash
 git clone https://github.com/Mstfklkn/DL-ANN-YSA_PDF.git
 cd DL-ANN-YSA_PDF
-
+```
 
 
 
