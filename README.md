@@ -16,21 +16,9 @@ This repository includes basic information, advanced techniques, code examples, 
 To clone the project to your local machine, follow these steps:
 
 ```bash
-git clone https://github.com/username/ai-dl-ml-repo.git
-cd ai-dl-ml-repo
-
-
-
-
-
-
-
-
-
-
-
-
+git clone https://github.com/Mstfklkn/DL-ANN-YSA_PDF.git
 cd DL-ANN-YSA_PDF
+
 
 
 
